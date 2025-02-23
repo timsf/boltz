@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "walkers"
+version = "0.1.0"
+description = ""
+authors = ["timsf <timstf@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+jupyter = "*"
+numpy = "*"
+matplotlib = "*"
+pandas = "*"
+scipy = "*"
+seaborn = "*"
+scikit-learn = "*"
+
+[tool.poetry.group.dev.dependencies]
+black = "*"
+coverage = "*"
+flake8 = "*"
+isort = "*"
+mypy = "*"
+pytest = "*"
+rope = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
