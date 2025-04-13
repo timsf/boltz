@@ -1,29 +1,15 @@
-[tool.poetry]
-name = "walkers"
+[project]
+name = "boltz"
 version = "0.1.0"
-description = ""
-authors = ["timsf <timstf@gmail.com>"]
+description = "Add your description here"
 readme = "README.md"
-
-[tool.poetry.dependencies]
-python = "^3.11"
-jupyter = "*"
-numpy = "*"
-matplotlib = "*"
-pandas = "*"
-scipy = "*"
-seaborn = "*"
-scikit-learn = "*"
-
-[tool.poetry.group.dev.dependencies]
-black = "*"
-coverage = "*"
-flake8 = "*"
-isort = "*"
-mypy = "*"
-pytest = "*"
-rope = "*"
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires-python = ">=3.11"
+dependencies = [
+    "jupyter>=1.1.1",
+    "matplotlib>=3.10.1",
+    "numpy>=2.2.4",
+    "pandas>=2.2.3",
+    "pytest>=8.3.5",
+    "scipy>=1.15.2",
+    "seaborn>=0.13.2",
+]
